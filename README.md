@@ -19,10 +19,9 @@ Authenticated account needs to have access to generating projects and link the p
 gcloud auth application-default login
 ```
 
-2. Create a terraform.tfvars file and add the correct billing account id
+2. Create a terraform.tfvars file and add the billing account id
 
-format is like this:
-
+format like this:
 ```
 billing_account_id = "xxx"
 ```
